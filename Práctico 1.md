@@ -1,4 +1,4 @@
-<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 12 11" src="https://github.com/user-attachments/assets/13c90d28-4fa5-49bc-9d39-d285c8245d5a" /># Práctico 1
+# Práctico 1
 
 > Lucía Amor, Lucía Olivera
 > 

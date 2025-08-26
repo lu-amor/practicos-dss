@@ -9,46 +9,36 @@
 
 1. Ir a [https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)
 2. Seleccionar **Download now**
-    
-    ![Screenshot 2025-08-21 at 20.32.17.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-21_at_20.32.17.png)
+    <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 32 17" src="https://github.com/user-attachments/assets/5e315f68-0ddd-4976-8eda-7356a9e7eef2" />
     
 3. Crear una cuenta en [https://access.broadcom.com/default/ui/v1/signin/](https://access.broadcom.com/default/ui/v1/signin/)
-    
-    ![Screenshot 2025-08-21 at 20.32.23.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-21_at_20.32.23.png)
+    <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 32 23" src="https://github.com/user-attachments/assets/a08da41f-4a0c-49ba-8796-f6f86d11c87f" />
     
 4. Iniciar sesión en la cuenta y luego navegar a [https://support.broadcom.com/group/ecx/free-downloads](https://support.broadcom.com/group/ecx/free-downloads)
 5. Seleccionar **VMware Fusion**
-    
-    ![Screenshot 2025-08-21 at 20.36.51.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-21_at_20.36.51.png)
+    <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 36 51" src="https://github.com/user-attachments/assets/b60eb1dc-d525-4ea7-95ab-131895823c70" />
     
 6. Seleccionar la versión **13.6.2**
-    
-    ![Screenshot 2025-08-21 at 20.37.28.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-21_at_20.37.28.png)
+    <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 37 28" src="https://github.com/user-attachments/assets/81a3f4fd-4adf-42b3-8c43-b944a907628e" />
     
 7. El checkbox para aceptar los Términos y Condiciones está deshabilitado. Para habilitarlo:
     1. Seleccionar **Terms and Conditions**
-        
-        ![Screenshot 2025-08-21 at 20.40.11.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-21_at_20.40.11.png)
+        <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 40 11" src="https://github.com/user-attachments/assets/742c9610-b02b-4fdb-af1f-574205debbcd" />
         
     2. Seleccionar cualquiera de las opciones
-        
-        ![Screenshot 2025-08-21 at 20.41.37.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-21_at_20.41.37.png)
+        <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 41 37" src="https://github.com/user-attachments/assets/fd3fc59e-bbb4-4381-8a4d-22e2a9747a8f" />
         
         Se abrirá un PDF con los Términos y Condiciones para leer si se desea
-        
-        ![Screenshot 2025-08-21 at 20.44.25.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-21_at_20.44.25.png)
+        <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 44 25" src="https://github.com/user-attachments/assets/f7c85f78-952d-4977-b1dd-47d8fee6bbae" />
         
 8. Retroceder hasta 7.a. el checkbox debería estar habilitado; seleccionarlo y luego seleccionar el botón de descarga
-    
-    ![Screenshot 2025-08-21 at 20.44.33.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-21_at_20.44.33.png)
+    <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 44 33" src="https://github.com/user-attachments/assets/cff56209-c6b6-4ecc-8849-918bca0a3784" />
     
     1. Completar los datos personales
-        
-        ![Screenshot 2025-08-21 at 20.45.06.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-21_at_20.45.06.png)
+        <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 45 06" src="https://github.com/user-attachments/assets/23e00d71-9d2b-41dc-bd31-5df84a14dbe9" />
         
     2. Permitir las descargas
-        
-        ![Screenshot 2025-08-21 at 20.46.01.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-21_at_20.46.01.png)
+        <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 46 01" src="https://github.com/user-attachments/assets/6fbf10aa-575d-4c72-9d6e-64e72a263bba" />
         
 9. Abrir el archivo descargado, instalarlo y dar permisos al sistema operativo
     

@@ -1,11 +1,11 @@
-# Práctico 1
+<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 12 11" src="https://github.com/user-attachments/assets/13c90d28-4fa5-49bc-9d39-d285c8245d5a" /># Práctico 1
 
 > Lucía Amor, Lucía Olivera
 > 
 
-# 1. Instalación de una máquina virtual de Kali Linux en VMware
+## 1. Instalación de una máquina virtual de Kali Linux en VMware
 
-## 1.1 Instalación de VMware
+### 1.1 Instalación de VMware
 
 1. Ir a [https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)
 2. Seleccionar **Download now**
@@ -41,108 +41,84 @@
         <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 46 01" src="https://github.com/user-attachments/assets/6fbf10aa-575d-4c72-9d6e-64e72a263bba" />
         
 9. Abrir el archivo descargado, instalarlo y dar permisos al sistema operativo
-    
-    ![Screenshot 2025-08-21 at 20.47.13.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-21_at_20.47.13.png)
+    <img width="1410" height="795" alt="Screenshot_2025-08-21_at_20 47 13" src="https://github.com/user-attachments/assets/b206a8c7-d14b-423c-b99c-a50c5919c2ef" />
     
     1. Otorgar permisos administrativos
-        
-        ![Screenshot 2025-08-21 at 20.47.23.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-21_at_20.47.23.png)
+        <img width="1410" height="795" alt="Screenshot_2025-08-21_at_20 47 23" src="https://github.com/user-attachments/assets/cfb6d8db-9b98-4dd7-a6a1-be966d58ace5" />
         
     2. Aceptar Términos y Condiciones y finalizar la instalación
-        
-        ![Screenshot 2025-08-21 at 20.48.07.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-21_at_20.48.07.png)
+        <img width="1410" height="795" alt="Screenshot_2025-08-21_at_20 48 07" src="https://github.com/user-attachments/assets/1005d184-e9b2-49b3-bfeb-1d2d77ba7691" />
         
 10. Abrir VMware, para dar permisos de accesibilidad: `OK > Open System Settings`
     1. Activar la opción **VMware**
+    <img width="1410" height="795" alt="Screenshot_2025-08-21_at_20 49 24" src="https://github.com/user-attachments/assets/e45c10a9-7d5b-4f0f-8ba9-816578a3d5e4" />
     
-    ![Screenshot 2025-08-21 at 20.49.24.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-21_at_20.49.24.png)
-    
-
-## 1.2 Instalación de máquina virtual de Kali Linux
+### 1.2 Instalación de máquina virtual de Kali Linux
 
 1. Desde [https://www.kali.org/get-kali/#kali-installer-images](https://www.kali.org/get-kali/#kali-installer-images) descargar el Installer para x86_64, descargará un archivo *.iso*
-    
-    ![Screenshot 2025-08-25 at 18.30.19.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_18.30.19.png)
+    <img width="1710" height="984" alt="Screenshot_2025-08-25_at_18 30 19" src="https://github.com/user-attachments/assets/ae9e605c-2ac8-40c6-be73-f3083244f0c0" />
     
 2. Abrir **VMware**
     1. arrastrar el archivo *.iso* descargado al recuadro negro y seleccionar **Continue**
-        
-        ![Screenshot 2025-08-21 at 20.49.51.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-21_at_20.49.51.png)
+        <img width="1410" height="795" alt="Screenshot_2025-08-21_at_20 49 51" src="https://github.com/user-attachments/assets/4c1044fd-f389-4cf1-8c72-1ca4473d7ab7" />
         
     2. Verificar que el archivo *.iso* sea el correcto y seleccionar **Continue**
-        
-        ![Screenshot 2025-08-24 at 20.48.12.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_20.48.12.png)
+        <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 48 12" src="https://github.com/user-attachments/assets/13e7030c-643a-4543-8bd0-f132ddef73c9" />
         
     3. Seleccionar `Linux > Debian 12.x 64-bit Arm`
-        
-        ![Screenshot 2025-08-24 at 20.55.08.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_20.55.08.png)
+        <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 55 08" src="https://github.com/user-attachments/assets/f5f2416d-c7fc-42e1-a647-d1ad66ce259e" />
         
     4. Finalizar la instalación.
-        
-        ![Screenshot 2025-08-24 at 20.55.38.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_20.55.38.png)
+        <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 55 38" src="https://github.com/user-attachments/assets/0a82b9ac-1317-4ad9-a826-c7bea96797da" />
         
 3. Una vez finalizada la instalación se abrirá una interfaz con distintas opciones de instalación.
     1. Seleccionar **Install**
-        
-        ![Screenshot 2025-08-24 at 20.56.10.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_20.56.10.png)
+        <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 56 10" src="https://github.com/user-attachments/assets/bb9982d2-1701-4d24-acc9-971062caddaf" />
         
     2. Seleccionar el idioma de preferencia
-        
-        ![Screenshot 2025-08-24 at 20.56.59.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_20.56.59.png)
+        <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 56 59" src="https://github.com/user-attachments/assets/968364c8-8a75-49cd-a7ba-6dbbf9e2f2b8" />
         
     3. Seleccionar país
-        
-        ![Screenshot 2025-08-24 at 20.57.49.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_20.57.49.png)
+        <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 57 49" src="https://github.com/user-attachments/assets/6ef1a658-ce34-41f1-9b9d-00fb8e5da921" />
         
     4. Seleccionar idioma del teclado
-        
-        ![Screenshot 2025-08-24 at 20.58.24.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_20.58.24.png)
+        <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 58 24" src="https://github.com/user-attachments/assets/9442b1bf-8db2-4aad-92ad-6bf4539c2c3b" />
         
     5. Ingresar un nombre de red para la máquina virtual
-        
-        ![Screenshot 2025-08-24 at 20.59.49.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_20.59.49.png)
+        <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 59 49" src="https://github.com/user-attachments/assets/ff0b65a6-9eb6-4b50-8b46-90ad32a541b8" />
         
     6. Configuración de usuarios y contraseñas:
         1. Ingresar nombre completo para el nuevo usuario
-            
-            ![Screenshot 2025-08-24 at 22.53.32.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_22.53.32.png)
+            <img width="1410" height="795" alt="Screenshot_2025-08-24_at_22 53 32" src="https://github.com/user-attachments/assets/dde77d58-49a3-41b0-85c5-2cf6a49468d9" />
             
         2. Ingresar un nombre de usuario
-            
-            ![Screenshot 2025-08-24 at 22.54.21.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_22.54.21.png)
+            <img width="1410" height="795" alt="Screenshot_2025-08-24_at_22 54 21" src="https://github.com/user-attachments/assets/d19ea091-65ea-4f2a-a394-3751668bcc6f" />
             
         3. Ingresar y verificar contraseña
-            
-            ![Screenshot 2025-08-24 at 22.54.34.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_22.54.34.png)
-            
-            ![Screenshot 2025-08-24 at 22.54.50.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_22.54.50.png)
+            <img width="1410" height="795" alt="Screenshot_2025-08-24_at_22 54 34" src="https://github.com/user-attachments/assets/52d8bd24-2101-4372-b859-55f4a8777afa" />
+            <img width="1410" height="795" alt="Screenshot_2025-08-24_at_22 54 50" src="https://github.com/user-attachments/assets/4f7b44ac-cb2d-493b-a413-d3cc0d894784" />
             
     7. Para el particionado de discos:
         1. Seleccionar el disco a particionar
-            
-            ![Screenshot 2025-08-24 at 22.59.34.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_22.59.34.png)
+            <img width="1410" height="795" alt="Screenshot_2025-08-24_at_22 59 34" src="https://github.com/user-attachments/assets/27c921c5-51f3-4def-8258-76547a4da173" />
             
         2. Para la selección de esquema de particionado elegir **“Todos los ficheros en una partición”**
-            
-            ![Screenshot 2025-08-24 at 22.59.55.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_22.59.55.png)
+            <img width="1410" height="795" alt="Screenshot_2025-08-24_at_22 59 55" src="https://github.com/user-attachments/assets/ddbb095d-05a5-42a8-8070-d2d986a8f131" />
             
         3. Finalizar el particionado y confirmar los cambios en los discos
     8. Seleccionar los programas a instalar como se ve en la imagen
-        
-        ![Screenshot 2025-08-24 at 23.02.27.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_23.02.27.png)
+        <img width="1410" height="795" alt="Screenshot_2025-08-24_at_23 02 27" src="https://github.com/user-attachments/assets/7b9f26dc-0e90-4dd8-b558-faffa7132f1c" />
         
     9. Finalizar la instalación e iniciar sesión con las credenciales del punto 2.f.
-        
-        ![Screenshot 2025-08-24 at 23.12.08.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-24_at_23.12.08.png)
+        <img width="1410" height="795" alt="Screenshot_2025-08-24_at_23 12 08" src="https://github.com/user-attachments/assets/38f48742-6291-4b96-a258-ace22181948f" />
         
 
-# 2. Instalación de un Proxy de interceptación
+## 2. Instalación de un Proxy de interceptación
 
-## 2.1 Instalación de BURP
+### 2.1 Instalación de BURP
 
 1. Ir a [https://portswigger.net/burp/releases/professional-community-2025-7-4](https://portswigger.net/burp/releases/professional-community-2025-7-4), seleccionar `Burp Suite Community Edition`, `Linux (ARM)` y **Download**
-    
-    ![Screenshot 2025-08-25 at 17.12.11.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_17.12.11.png)
+    <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 12 11" src="https://github.com/user-attachments/assets/f0545b29-75ef-4c9e-974a-f63d28e0d2d7" />
     
 2. Abrir una terminal y moverse a la carpeta donde está el archivo descargado (por defecto es `Descargas`)
     1. En la terminal ejecutar:
@@ -156,26 +132,19 @@
         ```
         
     2. En el Setup Wizard que se abre seleccionar `Next > Next > Next > Finish`
-        
-        ![Screenshot 2025-08-25 at 17.16.11.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_17.16.11.png)
-        
-        ![Screenshot 2025-08-25 at 17.17.06.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_17.17.06.png)
-        
-        ![Screenshot 2025-08-25 at 17.17.17.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_17.17.17.png)
-        
-        ![Screenshot 2025-08-25 at 17.21.34.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_17.21.34.png)
+        <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 16 11" src="https://github.com/user-attachments/assets/1ebf086c-1f08-49ec-9ef8-4a63357705be" />
+        <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 17 06" src="https://github.com/user-attachments/assets/c1cf5fa4-b844-4b88-ad2e-86bc7372a4a6" />
+        <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 17 17" src="https://github.com/user-attachments/assets/5bde3923-abe4-42fa-8123-68a48505edec" />
+        <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 21 34" src="https://github.com/user-attachments/assets/9df5dc8c-e195-4649-b582-ac9347d45ed7" />
         
     3. Verificar la correcta instalación
-        
-        ![Screenshot 2025-08-25 at 17.22.41.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_17.22.41.png)
-        
+        <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 22 41" src="https://github.com/user-attachments/assets/fbb71dd8-6766-49bf-a041-45991dc72c9c" />        
 
-## 2.2 Instalación de ZAP
+### 2.2 Instalación de ZAP
 
 1. Dentro de un navegador en la máquina virtual ir a [https://www.zaproxy.org/download/](https://www.zaproxy.org/download/) 
 2. Descargar Linux Installer (debería descargar un archivo *.sh*)
-    
-    ![Screenshot 2025-08-22 at 15.06.31.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/3a8d66d6-7883-4974-9c53-226668d6ad93.png)
+    <img width="1857" height="710" alt="Screenshot_2025-08-22_at_15 06 31" src="https://github.com/user-attachments/assets/ac4fe6f1-670d-4445-9188-a2945548ec6f" />
     
 3. Abrir una terminal, moverse a la carpeta donde está el archivo descargado (por defecto es `Descargas`) y ejecutar:
     
@@ -191,24 +160,19 @@
     
 4. Pasos de instalación en el Setup Wizard:
     1. Aceptar los términos de licencia
-        
-        ![Screenshot 2025-08-21 at 20.56.59.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/da6912c1-4dc1-47d5-aec0-27b7171a78df.png)
+        <img width="598" height="492" alt="Screenshot_2025-08-21_at_20 56 59" src="https://github.com/user-attachments/assets/f9d1eb2c-6b51-495f-b5eb-0270d41cc311" />
         
     2. Seleccionar **Instalación estándar**
-        
-        ![Screenshot 2025-08-21 at 20.57.11.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/bbd2f323-22f7-4978-a50a-5200388f66e0.png)
+        <img width="600" height="496" alt="Screenshot_2025-08-21_at_20 57 17" src="https://github.com/user-attachments/assets/407aabf7-60bb-43a5-a534-427607f4f64f" />
         
     3. Seleccionar **Instalar**
-        
-        ![Screenshot 2025-08-21 at 20.57.17.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/0a9eb96f-b618-42bb-b739-11a1f57c8d85.png)
-        
+        <img width="601" height="503" alt="Screenshot_2025-08-21_at_20 57 18" src="https://github.com/user-attachments/assets/3aa80024-f2ae-487e-834a-9515dde48dc3" />
 
-# 3. Instalación de Visual Studio Code en la máquina virtual de Kali Linux5.
+## 3. Instalación de Visual Studio Code en la máquina virtual de Kali Linux5.
 
 1. Desde [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download#)
 2. Descargar el archivo *.deb* para **Arm64**
-    
-    ![Screenshot 2025-08-22 at 15.34.53.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/d1e866bc-926b-480b-833b-faec36fbe7d5.png)
+    <img width="1494" height="974" alt="Screenshot_2025-08-22_at_15 34 53" src="https://github.com/user-attachments/assets/0e1087c3-3bb6-4680-b642-0d2123b79672" />
     
 3. Abrir una terminal ejecutar
     
@@ -217,11 +181,9 @@
     ```
     
     Cuando aparezca esta ventana en el instalador seleccionar **<Si>**
-    
-    ![Screenshot 2025-08-22 at 15.37.37.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/dfbc7e75-7f0e-4ce4-af9f-0da617026b06.png)
-    
+    <img width="731" height="578" alt="Screenshot_2025-08-22_at_15 37 37" src="https://github.com/user-attachments/assets/42e69d4c-01ba-4b77-b89d-13739250fe38" />  
 
-# 4. Instalación de Docker en la máquina virtual de Kali Linux6.
+## 4. Instalación de Docker en la máquina virtual de Kali Linux6.
 
 [https://docs.docker.com/engine/install/debian/#installation-methods](https://docs.docker.com/engine/install/debian/#installation-methods)
 
@@ -242,28 +204,26 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 ```
-
-![Screenshot 2025-08-25 at 17.47.46.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_17.47.46.png)
+<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 47 46" src="https://github.com/user-attachments/assets/d9dcf569-1f43-4cae-872a-89988e736c32" />
 
 Descargar el archivo para Debian
+<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 48 43" src="https://github.com/user-attachments/assets/b58929a3-52d2-4ee4-9019-8c4e47255d89" />
 
-![Screenshot 2025-08-25 at 17.48.43.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_17.48.43.png)
+<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 49 19" src="https://github.com/user-attachments/assets/dd4f9198-1e34-4bcc-a8cf-0d8b3c8c75e2" />
 
-![Screenshot 2025-08-25 at 17.49.19.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_17.49.19.png)
+<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 50 26" src="https://github.com/user-attachments/assets/f0ae9aaf-bcb7-4621-b7c4-55bd1235dee4" />
 
-![Screenshot 2025-08-25 at 17.50.26.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_17.50.26.png)
+<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 50 38" src="https://github.com/user-attachments/assets/1a977a3b-6564-4be5-8157-7a66189ee32a" />
 
-![Screenshot 2025-08-25 at 17.50.38.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_17.50.38.png)
+<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 51 16" src="https://github.com/user-attachments/assets/c98e38e7-6e9e-4b6a-baac-a0699bed2668" />
 
-![Screenshot 2025-08-25 at 17.51.16.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_17.51.16.png)
+<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 56 15" src="https://github.com/user-attachments/assets/7ebb453f-263c-4e2c-a83a-c27a8ccbfa04" />
 
-![Screenshot 2025-08-25 at 17.56.15.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_17.56.15.png)
+<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 58 00" src="https://github.com/user-attachments/assets/d5a33d35-fd3a-4e65-827a-da354a16ccab" />
 
-![Screenshot 2025-08-25 at 17.58.00.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_17.58.00.png)
+<img width="1410" height="795" alt="Screenshot_2025-08-25_at_18 53 47" src="https://github.com/user-attachments/assets/2462d17a-ef73-4f0a-bd76-07deeccff139" />
 
-![Screenshot 2025-08-25 at 18.53.47.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_18.53.47.png)
-
-# 5. Ejecución de OWASP Juice Shop7 en un ambiente Dockerizado.
+## 5. Ejecución de OWASP Juice Shop7 en un ambiente Dockerizado.
 
 1. Crear un archivo *.yml* con el siguiente contenido y guardarlo
     
@@ -276,7 +236,7 @@ Descargar el archivo para Debian
           - "3000:3000"
     ```
     
-    ![Screenshot 2025-08-25 at 19.02.47.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_19.02.47.png)
+    <img width="1410" height="795" alt="Screenshot_2025-08-25_at_19 02 47" src="https://github.com/user-attachments/assets/dcc6e2f3-6002-42c6-a841-d5e93ceaa5b3" />
     
 2. Abrir una terminal y moverse hasta la carpeta donde está creado el archivo del paso anterior
 3. Ejecutar
@@ -285,7 +245,7 @@ Descargar el archivo para Debian
     sudo docker compose up
     ```
     
-    ![Screenshot 2025-08-25 at 19.06.58.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_19.06.58.png)
+    ![Uploading Screenshot_2025-08-25_at_19.06.58.png…]()
     
 
 ```bash
@@ -298,7 +258,7 @@ sudo docker ps
 docker stop <id-contenedor>
 ```
 
-# 6. Ejecución de Crappi8 en un ambiente Dockerizado.
+## 6. Ejecución de Crappi8 en un ambiente Dockerizado.
 
 1. Abrir una terminal y ejecutar:
     
@@ -346,11 +306,11 @@ unzip /tmp/crapi.zip -d ~/path/deseado/para/descomprimir/
     ![Screenshot 2025-08-26 at 14.56.14.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-26_at_14.56.14.png)
     
 
-# 7. Prueba de la visualización del tráfico en el proxy de interceptación (Burp Suite)
+## 7. Prueba de la visualización del tráfico en el proxy de interceptación (Burp Suite)
 
 Este procedimiento permite configurar Burp Suite como proxy para luego interceptar el tráfico del navegador.
 
-## 1. Configuración del Proxy en Burp Suite
+### 7.1. Configuración del Proxy en Burp Suite
 
 1. Abrir **Burp Suite** e ir a `Proxy > Proxy Settings`
 2. Verificar que el proxy esté activo con:
@@ -360,7 +320,7 @@ Este procedimiento permite configurar Burp Suite como proxy para luego intercept
     ![Screenshot 2025-08-25 at 23.54.35.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/9d0201d3-cc6d-43b2-9989-6cdfcf95a08f.png)
     
 
-## 2. Configuración del Proxy en el Navegador (Firefox)
+### 7.2. Configuración del Proxy en el Navegador (Firefox)
 
 1. Abrir **Firefox** e ir a: `Settings > General > Network Settings` y hacer click en `Settings`
     
@@ -378,7 +338,7 @@ Este procedimiento permite configurar Burp Suite como proxy para luego intercept
     ![Screenshot 2025-08-26 at 00.00.39.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-26_at_00.00.39.png)
     
 
-## 3. Emisión del certificado para HTTPS
+### 7.3. Emisión del certificado para HTTPS
 
 1. Abrir Burp Suite e ir a: `Proxy > Proxy Settings`, luego seleccionar **Import/ export CA certificate**
     
@@ -390,7 +350,7 @@ Este procedimiento permite configurar Burp Suite como proxy para luego intercept
     
 3. Elegir una ubicación para guardarlo y confirmar
 
-## 4. Configuración del Certificado en el Navegador (Firefox)
+### 7.4. Configuración del Certificado en el Navegador (Firefox)
 
 1. Abrir **Firefox** e ir a `Settings > Privacy & Security > Security > Certificates` y hacer click en **View Certificates**
     
@@ -413,7 +373,7 @@ Este procedimiento permite configurar Burp Suite como proxy para luego intercept
     ![Screenshot 2025-08-26 at 13.02.43.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-26_at_13.02.43.png)
     
 
-## 5. Visualización de tráfico en el proxy de interceptación
+### 7.5. Visualización de tráfico en el proxy de interceptación
 
 Teniendo el proxy configurado, es posible visualizar el tráfico de la siguiente manera:
 

@@ -11,7 +11,7 @@
 2. Seleccionar el botón **Download now**
     <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 32 17" src="https://github.com/user-attachments/assets/5e315f68-0ddd-4976-8eda-7356a9e7eef2" />
     
-3. Se le redigirá a la siguiente página: [https://access.broadcom.com/default/ui/v1/signin/](https://access.broadcom.com/default/ui/v1/signin/). Si se cuenta con un usuario, iniciar sesión, de lo contrario clickee sobre el desplegable **LOGIN*+, y seleccione la opción **REGISTER**
+3. Se le redigirá a la siguiente página: [https://access.broadcom.com/default/ui/v1/signin/](https://access.broadcom.com/default/ui/v1/signin/). Si se cuenta con un usuario, iniciar sesión, de lo contrario clickee sobre el desplegable **LOGIN**, y seleccione la opción **REGISTER**
     <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 32 23" src="https://github.com/user-attachments/assets/a08da41f-4a0c-49ba-8796-f6f86d11c87f" />
     
 4. Iniciar sesión en la cuenta y luego navegar a [https://support.broadcom.com/group/ecx/free-downloads](https://support.broadcom.com/group/ecx/free-downloads)

@@ -59,7 +59,7 @@
     <img width="1710" height="984" alt="Screenshot_2025-08-25_at_18 30 19" src="https://github.com/user-attachments/assets/ae9e605c-2ac8-40c6-be73-f3083244f0c0" />
     
 2. Abrir **VMware**
-    1. arrastrar el archivo *.iso* descargado al recuadro negro y seleccionar **Continue**
+    1. Arrastrar el archivo *.iso* descargado al recuadro negro y seleccionar **Continue**
         <img width="1410" height="795" alt="Screenshot_2025-08-21_at_20 49 51" src="https://github.com/user-attachments/assets/4c1044fd-f389-4cf1-8c72-1ca4473d7ab7" />
         
     2. Verificar que el archivo *.iso* sea el correcto y seleccionar **Continue**
@@ -109,9 +109,8 @@
     8. Seleccionar los programas a instalar como se ve en la imagen
         <img width="1410" height="795" alt="Screenshot_2025-08-24_at_23 02 27" src="https://github.com/user-attachments/assets/7b9f26dc-0e90-4dd8-b558-faffa7132f1c" />
         
-    9. Finalizar la instalación e iniciar sesión con las credenciales del punto 2.f.
+    9. Finalizar la instalación e iniciar sesión con las credenciales del punto 3.vi.
         <img width="1410" height="795" alt="Screenshot_2025-08-24_at_23 12 08" src="https://github.com/user-attachments/assets/38f48742-6291-4b96-a258-ace22181948f" />
-        
 
 ## 2. Instalación de un Proxy de interceptación
 

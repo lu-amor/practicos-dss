@@ -51,7 +51,7 @@
         
 10. Abrir VMware, para dar permisos de accesibilidad: `OK > Open System Settings`
     1. Activar la opción **VMware**
-    <img width="1410" height="795" alt="Screenshot_2025-08-21_at_20 49 24" src="https://github.com/user-attachments/assets/e45c10a9-7d5b-4f0f-8ba9-816578a3d5e4" />
+        <img width="1410" height="795" alt="Screenshot_2025-08-21_at_20 49 24" src="https://github.com/user-attachments/assets/e45c10a9-7d5b-4f0f-8ba9-816578a3d5e4" />
     
 ### 1.2 Instalación de máquina virtual de Kali Linux
 
@@ -142,7 +142,7 @@
 ### 2.2 Instalación de ZAP
 
 1. Dentro de un navegador en la máquina virtual ir a [https://www.zaproxy.org/download/](https://www.zaproxy.org/download/) 
-2. Descargar Linux Installer (debería descargar un archivo *.sh*)
+2. Descargar **Linux Installer** (debería descargar un archivo *.sh*)
     <img width="1857" height="710" alt="Screenshot_2025-08-22_at_15 06 31" src="https://github.com/user-attachments/assets/ac4fe6f1-670d-4445-9188-a2945548ec6f" />
     
 3. Abrir una terminal, moverse a la carpeta donde está el archivo descargado (por defecto es `Descargas`) y ejecutar:

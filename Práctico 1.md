@@ -209,10 +209,10 @@ Se comenzarán a realizar descargas, ingresar contraseña de la vm cuando sea so
 <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 50 26" src="https://github.com/user-attachments/assets/f0ae9aaf-bcb7-4621-b7c4-55bd1235dee4" />
 
 2. Al finalizar el proceso anterior, ejecutar en la terminal:
+
 ```
 sudo apt install docker.io docker-compose
 ```
-Cuando se solicite confirmación, teclear Yo S + enter. 
 
 <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 56 15" src="https://github.com/user-attachments/assets/7ebb453f-263c-4e2c-a83a-c27a8ccbfa04" />
 

@@ -15,17 +15,17 @@
     <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 32 23" src="https://github.com/user-attachments/assets/a08da41f-4a0c-49ba-8796-f6f86d11c87f" />
     
 4. Iniciar sesión en la cuenta y luego navegar a [https://support.broadcom.com/group/ecx/free-downloads](https://support.broadcom.com/group/ecx/free-downloads)
-5. Seleccionar **VMware Fusion**
+5. Seleccionar **VMware Fusion** entre las opciones de "Free Downloads"
     <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 36 51" src="https://github.com/user-attachments/assets/b60eb1dc-d525-4ea7-95ab-131895823c70" />
     
-6. Seleccionar la versión **13.6.2**
+6. Se le redigirá a una página con las opciones para su descarga, seleccionar la versión **13.6.2**
     <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 37 28" src="https://github.com/user-attachments/assets/81a3f4fd-4adf-42b3-8c43-b944a907628e" />
     
 7. El checkbox para aceptar los Términos y Condiciones está deshabilitado. Para habilitarlo:
     1. Seleccionar **Terms and Conditions**
         <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 40 11" src="https://github.com/user-attachments/assets/742c9610-b02b-4fdb-af1f-574205debbcd" />
         
-    2. Seleccionar cualquiera de las opciones
+    2. Seleccionar cualquiera de las opciones de idioma que aparecen
         <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 41 37" src="https://github.com/user-attachments/assets/fd3fc59e-bbb4-4381-8a4d-22e2a9747a8f" />
         
         Se abrirá un PDF con los Términos y Condiciones para leer si se desea
@@ -34,22 +34,22 @@
 8. Retroceder hasta 7.a. el checkbox debería estar habilitado; seleccionarlo y luego seleccionar el botón de descarga
     <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 44 33" src="https://github.com/user-attachments/assets/cff56209-c6b6-4ecc-8849-918bca0a3784" />
     
-    1. Completar los datos personales
+    1. Completar los datos personales, checkear la opción "I Agree" a los términos y condiciones y clickear el botón "Submit"
         <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 45 06" src="https://github.com/user-attachments/assets/23e00d71-9d2b-41dc-bd31-5df84a14dbe9" />
         
-    2. Permitir las descargas
+    2. Permitir descargas de "vmware.com" y "support.broadcom.com", clickeando "Allow" o "Permitir"
         <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 46 01" src="https://github.com/user-attachments/assets/6fbf10aa-575d-4c72-9d6e-64e72a263bba" />
         
 9. Abrir el archivo descargado, instalarlo y dar permisos al sistema operativo
     <img width="1410" height="795" alt="Screenshot_2025-08-21_at_20 47 13" src="https://github.com/user-attachments/assets/b206a8c7-d14b-423c-b99c-a50c5919c2ef" />
     
-    1. Otorgar permisos administrativos
+    1. Otorgar permisos administrativos, proporcionando la contraseña de su equipo
         <img width="1410" height="795" alt="Screenshot_2025-08-21_at_20 47 23" src="https://github.com/user-attachments/assets/cfb6d8db-9b98-4dd7-a6a1-be966d58ace5" />
         
-    2. Aceptar Términos y Condiciones y finalizar la instalación
+    2. Aceptar Términos y Condiciones y finalizar la instalación, clickeando el botón "Agree"
         <img width="1410" height="795" alt="Screenshot_2025-08-21_at_20 48 07" src="https://github.com/user-attachments/assets/1005d184-e9b2-49b3-bfeb-1d2d77ba7691" />
         
-10. Abrir VMware, para dar permisos de accesibilidad: `OK > Open System Settings`
+10. Abrir VMware, para dar permisos de accesibilidad: `OK > Open System Settings > Accessibility`
     1. Activar la opción **VMware**
     <img width="1410" height="795" alt="Screenshot_2025-08-21_at_20 49 24" src="https://github.com/user-attachments/assets/e45c10a9-7d5b-4f0f-8ba9-816578a3d5e4" />
     
@@ -65,13 +65,13 @@
     2. Verificar que el archivo *.iso* sea el correcto y seleccionar **Continue**
         <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 48 12" src="https://github.com/user-attachments/assets/13e7030c-643a-4543-8bd0-f132ddef73c9" />
         
-    3. Seleccionar `Linux > Debian 12.x 64-bit Arm`
+    3. Cuando se solicite la elección de sistema operativo, seleccionar `Linux > Debian 12.x 64-bit Arm` y presionar "continuar"
         <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 55 08" src="https://github.com/user-attachments/assets/f5f2416d-c7fc-42e1-a647-d1ad66ce259e" />
         
-    4. Finalizar la instalación.
+    4. Finalizar la instalación, marcando la opción "Finish".
         <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 55 38" src="https://github.com/user-attachments/assets/0a82b9ac-1317-4ad9-a826-c7bea96797da" />
         
-3. Una vez finalizada la instalación se abrirá una interfaz con distintas opciones de instalación.
+3. Una vez finalizada la instalación se abrirá una interfaz con distintas opciones de instalación, en este proceso se utilizarán las "flechas" del teclado para realizar movimientos y la tecla "enter" para seleccionar una opción.
     1. Seleccionar **Install**
         <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 56 10" src="https://github.com/user-attachments/assets/bb9982d2-1701-4d24-acc9-971062caddaf" />
         
@@ -84,7 +84,7 @@
     4. Seleccionar idioma del teclado
         <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 58 24" src="https://github.com/user-attachments/assets/9442b1bf-8db2-4aad-92ad-6bf4539c2c3b" />
         
-    5. Ingresar un nombre de red para la máquina virtual
+    5. Ingresar un nombre de red interno y externo para la máquina virtual; el segundo no es necesario completarlo, se puede enviar vacío.
         <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 59 49" src="https://github.com/user-attachments/assets/ff0b65a6-9eb6-4b50-8b46-90ad32a541b8" />
         
     6. Configuración de usuarios y contraseñas:

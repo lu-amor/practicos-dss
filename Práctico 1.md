@@ -116,7 +116,7 @@
 
 ### 2.1 Instalación de BURP
 
-1. Ir a [https://portswigger.net/burp/releases/professional-community-2025-7-4](https://portswigger.net/burp/releases/professional-community-2025-7-4), seleccionar `Burp Suite Community Edition`, `Linux (ARM)` y **Download**
+1. Dentro del navegador de la máquina virtual, ir a [https://portswigger.net/burp/releases/professional-community-2025-7-4](https://portswigger.net/burp/releases/professional-community-2025-7-4), seleccionar `Burp Suite Community Edition`, `Linux (ARM)` y **Download**
     <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 12 11" src="https://github.com/user-attachments/assets/f0545b29-75ef-4c9e-974a-f63d28e0d2d7" />
     
 2. Abrir una terminal y moverse a la carpeta donde está el archivo descargado (por defecto es `Descargas`)
@@ -130,13 +130,13 @@
         ./<nombre del archivo>.sh
         ```
         
-    2. En el Setup Wizard que se abre seleccionar `Next > Next > Next > Finish`
+    2. Automáticamente se abrirá el Setup Wizard, ahí debe seleccionar `Next > Next > Next > Finish`
         <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 16 11" src="https://github.com/user-attachments/assets/1ebf086c-1f08-49ec-9ef8-4a63357705be" />
         <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 17 06" src="https://github.com/user-attachments/assets/c1cf5fa4-b844-4b88-ad2e-86bc7372a4a6" />
         <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 17 17" src="https://github.com/user-attachments/assets/5bde3923-abe4-42fa-8123-68a48505edec" />
         <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 21 34" src="https://github.com/user-attachments/assets/9df5dc8c-e195-4649-b582-ac9347d45ed7" />
         
-    3. Verificar la correcta instalación
+    3. Verificar la correcta instalación buscando “Burp Suite Community Edition” en las aplicaciones de la vm; utilizando el buscador general.
         <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 22 41" src="https://github.com/user-attachments/assets/fbb71dd8-6766-49bf-a041-45991dc72c9c" />        
 
 ### 2.2 Instalación de ZAP
@@ -155,7 +155,7 @@
     sudo ./<nombre del archivo>
     ```
     
-    Ingresar la contraseña del usuario si la pide y se abrirá un Setup Wizard
+    Ingresar la contraseña del usuario de la computadora (vm) si la pide y se abrirá un Setup Wizard
     
 4. Pasos de instalación en el Setup Wizard:
     1. Aceptar los términos de licencia
@@ -184,9 +184,9 @@
 
 ## 4. Instalación de Docker en la máquina virtual de Kali Linux6.
 
-[https://docs.docker.com/engine/install/debian/#installation-methods](https://docs.docker.com/engine/install/debian/#installation-methods)
+El proceso a explicar está basado en los pasos a seguir mostrados en el siguiente link: [https://docs.docker.com/engine/install/debian/#installation-methods](https://docs.docker.com/engine/install/debian/#installation-methods)
 
-Abrir una terminal y ejecutar:
+1. En la terminal de la VM ejecutar:
 
 ```bash
 # Add Docker's official GPG key:
@@ -203,22 +203,34 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 ```
-<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 47 46" src="https://github.com/user-attachments/assets/d9dcf569-1f43-4cae-872a-89988e736c32" />
-
-Descargar el archivo para Debian
-<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 48 43" src="https://github.com/user-attachments/assets/b58929a3-52d2-4ee4-9019-8c4e47255d89" />
-
+Se comenzarán a realizar descargas, ingresar contraseña de la vm cuando sea solicitada. Presionar la tecla S o Y para confirmar la descarga cuando sea necesario.
 <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 49 19" src="https://github.com/user-attachments/assets/dd4f9198-1e34-4bcc-a8cf-0d8b3c8c75e2" />
 
 <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 50 26" src="https://github.com/user-attachments/assets/f0ae9aaf-bcb7-4621-b7c4-55bd1235dee4" />
 
 <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 50 38" src="https://github.com/user-attachments/assets/1a977a3b-6564-4be5-8157-7a66189ee32a" />
 
+2. Ejecutar en la terminal
+```
+sudo apt install docker.io docker-compose
+```
+Cuando se solicite confirmación, teclear Yo S + enter. 
 <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 51 16" src="https://github.com/user-attachments/assets/c98e38e7-6e9e-4b6a-baac-a0699bed2668" />
 
 <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 56 15" src="https://github.com/user-attachments/assets/7ebb453f-263c-4e2c-a83a-c27a8ccbfa04" />
 
-<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 58 00" src="https://github.com/user-attachments/assets/d5a33d35-fd3a-4e65-827a-da354a16ccab" />
+3. Para comenzar y verificar la correcta instalación de docker, ejecutar en la terminal:
+
+```
+sudo systemctl enable docker
+
+# Luego...
+sudo systemctl start docker
+
+# Para verificar la versión de docker instalada:
+docker --version
+
+```
 
 <img width="1410" height="795" alt="Screenshot_2025-08-25_at_18 53 47" src="https://github.com/user-attachments/assets/2462d17a-ef73-4f0a-bd76-07deeccff139" />
 
@@ -246,12 +258,12 @@ Descargar el archivo para Debian
     <img width="1410" height="795" alt="Screenshot_2025-08-25_at_19 06 58" src="https://github.com/user-attachments/assets/841ae9c5-7eda-4198-86c8-616ab7203915" /> 
 
 ```bash
-// Para corroborar qué contenedores están corriendo
+# Para corroborar qué contenedores están corriendo
 docker ps
-// Si pide permisos
+# Si pide permisos
 sudo docker ps
 
-// Para detener un contenedor
+# Para detener un contenedor
 docker stop <id-contenedor>
 ```
 

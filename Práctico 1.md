@@ -32,12 +32,12 @@
         <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 44 25" src="https://github.com/user-attachments/assets/f7c85f78-952d-4977-b1dd-47d8fee6bbae" />
         
 8. Retroceder hasta 7.a. el checkbox debería estar habilitado; seleccionarlo y luego seleccionar el botón de descarga
-    <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 44 33" src="https://github.com/user-attachments/assets/cff56209-c6b6-4ecc-8849-918bca0a3784" />
+        <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 44 33" src="https://github.com/user-attachments/assets/cff56209-c6b6-4ecc-8849-918bca0a3784" />
     
     1. Completar los datos personales, checkear la opción "I Agree" a los términos y condiciones y clickear el botón "Submit"
         <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 45 06" src="https://github.com/user-attachments/assets/23e00d71-9d2b-41dc-bd31-5df84a14dbe9" />
         
-    2. Permitir descargas de "vmware.com" y "support.broadcom.com", clickeando "Allow" o "Permitir"
+    2. Permitir descargas de "vmware.com" y "support.broadcom.com", clickeando **Allow** o **Permitir**
         <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 46 01" src="https://github.com/user-attachments/assets/6fbf10aa-575d-4c72-9d6e-64e72a263bba" />
         
 9. Abrir el archivo descargado, instalarlo y dar permisos al sistema operativo
@@ -46,7 +46,7 @@
     1. Otorgar permisos administrativos, proporcionando la contraseña de su equipo
         <img width="1410" height="795" alt="Screenshot_2025-08-21_at_20 47 23" src="https://github.com/user-attachments/assets/cfb6d8db-9b98-4dd7-a6a1-be966d58ace5" />
         
-    2. Aceptar Términos y Condiciones y finalizar la instalación, clickeando el botón "Agree"
+    2. Aceptar Términos y Condiciones y finalizar la instalación, clickeando el botón **Agree**
         <img width="1410" height="795" alt="Screenshot_2025-08-21_at_20 48 07" src="https://github.com/user-attachments/assets/1005d184-e9b2-49b3-bfeb-1d2d77ba7691" />
         
 10. Abrir VMware, para dar permisos de accesibilidad: `OK > Open System Settings > Accessibility`
@@ -65,13 +65,13 @@
     2. Verificar que el archivo *.iso* sea el correcto y seleccionar **Continue**
         <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 48 12" src="https://github.com/user-attachments/assets/13e7030c-643a-4543-8bd0-f132ddef73c9" />
         
-    3. Cuando se solicite la elección de sistema operativo, seleccionar `Linux > Debian 12.x 64-bit Arm` y presionar "continuar"
+    3. Cuando se solicite la elección de sistema operativo, seleccionar `Linux > Debian 12.x 64-bit Arm` y presionar **Continuar**
         <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 55 08" src="https://github.com/user-attachments/assets/f5f2416d-c7fc-42e1-a647-d1ad66ce259e" />
         
-    4. Finalizar la instalación, marcando la opción "Finish".
+    4. Finalizar la instalación, marcando la opción **Finish**.
         <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 55 38" src="https://github.com/user-attachments/assets/0a82b9ac-1317-4ad9-a826-c7bea96797da" />
         
-3. Una vez finalizada la instalación se abrirá una interfaz con distintas opciones de instalación, en este proceso se utilizarán las "flechas" del teclado para realizar movimientos y la tecla "enter" para seleccionar una opción.
+3. Una vez finalizada la instalación se abrirá una interfaz con distintas opciones de instalación, en este proceso se utilizarán las **teclas de flecha** del teclado para navegar entre ellas y la tecla **Enter** para confirmar una selección.
     1. Seleccionar **Install**
         <img width="1410" height="795" alt="Screenshot_2025-08-24_at_20 56 10" src="https://github.com/user-attachments/assets/bb9982d2-1701-4d24-acc9-971062caddaf" />
         
@@ -179,57 +179,57 @@
     sudo apt install ./<nombre del archivo>
     ```
     
-    Cuando aparezca esta ventana en el instalador seleccionar **<Si>**
+    Cuando aparezca esta ventana en el instalador seleccionar **Si**
     <img width="731" height="578" alt="Screenshot_2025-08-22_at_15 37 37" src="https://github.com/user-attachments/assets/42e69d4c-01ba-4b77-b89d-13739250fe38" />  
 
 ## 4. Instalación de Docker en la máquina virtual de Kali Linux6.
 
-El proceso a explicar está basado en los pasos a seguir mostrados en el siguiente link: [https://docs.docker.com/engine/install/debian/#installation-methods](https://docs.docker.com/engine/install/debian/#installation-methods)
+El procedimiento que se detalla a continuación se basa en las instrucciones proporcionadas en el siguiente enlace: [https://docs.docker.com/engine/install/debian/#installation-methods](https://docs.docker.com/engine/install/debian/#installation-methods)
 
 1. En la terminal de la VM ejecutar:
 
-```bash
-# Add Docker's official GPG key:
-sudo apt-get update
-sudo apt-get install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
+    ```bash
+    # Add Docker's official GPG key:
+    sudo apt-get update
+    sudo apt-get install ca-certificates curl
+    sudo install -m 0755 -d /etc/apt/keyrings
+    sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+    sudo chmod a+r /etc/apt/keyrings/docker.asc
+    
+    # Add the repository to Apt sources:
+    echo \
+      "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+      $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+      sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    sudo apt-get update
+    ```
 
-# Add the repository to Apt sources:
-echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt-get update
-```
+    Se comenzarán a realizar descargas, ingresar contraseña de la vm cuando sea solicitada. Presionar la tecla **S** o **Y** para confirmar la descarga cuando sea necesario.
 
-Se comenzarán a realizar descargas, ingresar contraseña de la vm cuando sea solicitada. Presionar la tecla S o Y para confirmar la descarga cuando sea necesario.
-
-<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 50 26" src="https://github.com/user-attachments/assets/f0ae9aaf-bcb7-4621-b7c4-55bd1235dee4" />
+    <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 50 26" src="https://github.com/user-attachments/assets/f0ae9aaf-bcb7-4621-b7c4-55bd1235dee4" />
 
 2. Al finalizar el proceso anterior, ejecutar en la terminal:
 
-```
-sudo apt install docker.io docker-compose
-```
+    ```
+    sudo apt install docker.io docker-compose
+    ```
 
-<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 56 15" src="https://github.com/user-attachments/assets/7ebb453f-263c-4e2c-a83a-c27a8ccbfa04" />
+    <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 56 15" src="https://github.com/user-attachments/assets/7ebb453f-263c-4e2c-a83a-c27a8ccbfa04" />
 
 3. Para comenzar y verificar la correcta instalación de docker, ejecutar en la terminal:
+    
+    ```
+    sudo systemctl enable docker
+    
+    # Luego...
+    sudo systemctl start docker
+    
+    # Para verificar la versión de docker instalada:
+    docker --version
+    
+    ```
 
-```
-sudo systemctl enable docker
-
-# Luego...
-sudo systemctl start docker
-
-# Para verificar la versión de docker instalada:
-docker --version
-
-```
-
-<img width="1410" height="795" alt="Screenshot_2025-08-25_at_18 53 47" src="https://github.com/user-attachments/assets/2462d17a-ef73-4f0a-bd76-07deeccff139" />
+    <img width="1410" height="795" alt="Screenshot_2025-08-25_at_18 53 47" src="https://github.com/user-attachments/assets/2462d17a-ef73-4f0a-bd76-07deeccff139" />
 
 ## 5. Ejecución de OWASP Juice Shop7 en un ambiente Dockerizado.
 
@@ -280,7 +280,7 @@ docker stop <id-contenedor>
     
     Si la respuesta a ese comando tiene un cero entre tu nombre de usuario y la fecha, como en el siguiente ejemplo:
     
-    -rw-rw-r-- 1 lucia lucia 0 ago 26 17:29 /tmp/crapi.zip
+    > -rw-rw-r-- 1 lucia lucia 0 ago 26 17:29 /tmp/crapi.zip
     
     Entonces el archivo no se ha descargado correctamente. A continuación ejecuta el siguiente comando en la terminal:
     
@@ -293,9 +293,9 @@ docker stop <id-contenedor>
     
 2. Descomprimir el archivo que se descargó en el punto anterior, ya sea manualmente, o con el siguiente comando:
 
-```bash
-unzip /tmp/crapi.zip -d ~/path/deseado/para/descomprimir/
-```
+    ```bash
+    unzip /tmp/crapi.zip -d ~/path/deseado/para/descomprimir/
+    ```
 
 1. Abrir una terminal, moverse a la carpeta donde se descomprimió el archivo y ejecutar:
     
@@ -361,7 +361,7 @@ Este procedimiento permite configurar Burp Suite como proxy para luego intercept
 4. Marcar el checkbox **“Trust this CA to identify websites”** y hacer click en **OK** para guardar los cambios
     <img width="1710" height="1107" alt="Screenshot_2025-08-26_at_13 02 26" src="https://github.com/user-attachments/assets/ba99bbf8-2da9-4c73-b8f1-759379225130" />
     
-5. Al hacer scroll debería aparecer PortSwigger como entidad certificadora
+5. Al hacer scroll entre las autoridades debería aparecer PortSwigger como entidad certificadora
     <img width="1710" height="1107" alt="Screenshot_2025-08-26_at_13 02 43" src="https://github.com/user-attachments/assets/e4395e06-eb0d-4d10-ba77-9113a2adce52" />
 
 ### 7.5. Visualización de tráfico en el proxy de interceptación

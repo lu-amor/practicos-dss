@@ -7,11 +7,11 @@
 
 ### 1.1 Instalación de VMware
 
-1. Ir a [https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)
-2. Seleccionar **Download now**
+1. En el navegador de la computadora donde se desea instalar la máquina virtual, entrar al siguiente link: [https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)
+2. Seleccionar el botón **Download now**
     <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 32 17" src="https://github.com/user-attachments/assets/5e315f68-0ddd-4976-8eda-7356a9e7eef2" />
     
-3. Crear una cuenta en [https://access.broadcom.com/default/ui/v1/signin/](https://access.broadcom.com/default/ui/v1/signin/)
+3. Se le redigirá a la siguiente página: [https://access.broadcom.com/default/ui/v1/signin/](https://access.broadcom.com/default/ui/v1/signin/). Si se cuenta con un usuario, iniciar sesión, de lo contrario clickee sobre el desplegable **LOGIN*+, y seleccione la opción **REGISTER**
     <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 32 23" src="https://github.com/user-attachments/assets/a08da41f-4a0c-49ba-8796-f6f86d11c87f" />
     
 4. Iniciar sesión en la cuenta y luego navegar a [https://support.broadcom.com/group/ecx/free-downloads](https://support.broadcom.com/group/ecx/free-downloads)
@@ -244,9 +244,7 @@ Descargar el archivo para Debian
     ```bash
     sudo docker compose up
     ```
-    
-    ![Uploading Screenshot_2025-08-25_at_19.06.58.png…]()
-    
+    <img width="1410" height="795" alt="Screenshot_2025-08-25_at_19 06 58" src="https://github.com/user-attachments/assets/841ae9c5-7eda-4198-86c8-616ab7203915" /> 
 
 ```bash
 // Para corroborar qué contenedores están corriendo
@@ -302,9 +300,7 @@ unzip /tmp/crapi.zip -d ~/path/deseado/para/descomprimir/
     ```
     
 2. Verificar que funciona entrando a [http://localhost:8888](http://localhost:8888/) desde un navegador
-    
-    ![Screenshot 2025-08-26 at 14.56.14.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-26_at_14.56.14.png)
-    
+    <img width="1710" height="1107" alt="Screenshot_2025-08-26_at_14 56 14" src="https://github.com/user-attachments/assets/998dadae-52c6-4342-8e3c-35a9a38bc65f" />
 
 ## 7. Prueba de la visualización del tráfico en el proxy de interceptación (Burp Suite)
 
@@ -316,17 +312,14 @@ Este procedimiento permite configurar Burp Suite como proxy para luego intercept
 2. Verificar que el proxy esté activo con:
     - **Interface:** `127.0.0.1:8080`
     - **Running:** Activado (checkbox marcado)
-    
-    ![Screenshot 2025-08-25 at 23.54.35.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/9d0201d3-cc6d-43b2-9989-6cdfcf95a08f.png)
-    
+    <img width="1348" height="372" alt="Screenshot_2025-08-25_at_23 53 15" src="https://github.com/user-attachments/assets/9d29f0f7-634d-43b5-8508-7c9f5ffe333d" />
+
 
 ### 7.2. Configuración del Proxy en el Navegador (Firefox)
 
 1. Abrir **Firefox** e ir a: `Settings > General > Network Settings` y hacer click en `Settings`
-    
-    ![Screenshot 2025-08-25 at 23.40.12.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_23.40.12.png)
-    
-    ![Untitled design.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/0885da1e-d768-4341-a52a-03f6369266d4.png)
+    <img width="1710" height="1107" alt="Screenshot_2025-08-25_at_23 40 12" src="https://github.com/user-attachments/assets/2c37879d-c71e-4aa6-9913-7b515d8e0309" />
+    <img width="1863" height="1109" alt="Screenshot_2025-08-25_at_23 41 37" src="https://github.com/user-attachments/assets/443f6926-3573-4f2b-a5c9-e2159e61839d" />
     
 2. Seleccionar **Manual proxy configuration** y completar los siguientes campos:
     - **HTTP Proxy:** `127.0.0.1`
@@ -334,55 +327,43 @@ Este procedimiento permite configurar Burp Suite como proxy para luego intercept
     - Seleccionar el checkbox **“Also use this proxy por HTTPS”**
     
     Hacer click en **OK** para guardar los cambios.
-    
-    ![Screenshot 2025-08-26 at 00.00.39.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-26_at_00.00.39.png)
-    
+    <img width="1710" height="1107" alt="Screenshot_2025-08-26_at_00 00 39" src="https://github.com/user-attachments/assets/48143cca-eed8-424a-8ff1-0000eaba9884" />
 
 ### 7.3. Emisión del certificado para HTTPS
 
 1. Abrir Burp Suite e ir a: `Proxy > Proxy Settings`, luego seleccionar **Import/ export CA certificate**
-    
-    ![Screenshot 2025-08-25 at 23.54.35.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_23.54.35.png)
+    <img width="1710" height="1107" alt="Screenshot_2025-08-25_at_23 54 35" src="https://github.com/user-attachments/assets/00ab957e-91d1-4a45-8a54-d5ee4ef8ca20" />
     
 2. Seleccionar **Certificate in DER format**
-    
-    ![Screenshot 2025-08-25 at 23.54.47.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-25_at_23.54.47.png)
+    <img width="1710" height="1107" alt="Screenshot_2025-08-25_at_23 54 47" src="https://github.com/user-attachments/assets/1ac43b86-146c-414c-ae97-97b93d80b805" />
     
 3. Elegir una ubicación para guardarlo y confirmar
 
 ### 7.4. Configuración del Certificado en el Navegador (Firefox)
 
 1. Abrir **Firefox** e ir a `Settings > Privacy & Security > Security > Certificates` y hacer click en **View Certificates**
-    
-    ![Screenshot 2025-08-26 at 13.00.36.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-26_at_13.00.36.png)
+    <img width="1710" height="1107" alt="Screenshot_2025-08-26_at_13 00 36" src="https://github.com/user-attachments/assets/b1c9ed1e-87d1-4a30-8339-c19b3d738fb9" />
     
 2. Hacer click en **Import**
-    
-    ![Screenshot 2025-08-26 at 13.00.45.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-26_at_13.00.45.png)
+    <img width="1710" height="1107" alt="Screenshot_2025-08-26_at_13 00 45" src="https://github.com/user-attachments/assets/0c387213-5bda-4062-94c4-6812e77cba14" />
     
 3. Seleccionar el certificado emitido
-    
-    ![Screenshot 2025-08-26 at 13.00.56.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-26_at_13.00.56.png)
+    <img width="1710" height="1107" alt="Screenshot_2025-08-26_at_13 00 56" src="https://github.com/user-attachments/assets/c65ef655-3771-4289-8bee-85fc00be9c59" />
     
 4. Marcar el checkbox **“Trust this CA to identify websites”** y hacer click en **OK** para guardar los cambios
-    
-    ![Screenshot 2025-08-26 at 13.02.26.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-26_at_13.02.26.png)
+    <img width="1710" height="1107" alt="Screenshot_2025-08-26_at_13 02 26" src="https://github.com/user-attachments/assets/ba99bbf8-2da9-4c73-b8f1-759379225130" />
     
 5. Al hacer scroll debería aparecer PortSwigger como entidad certificadora
-    
-    ![Screenshot 2025-08-26 at 13.02.43.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-26_at_13.02.43.png)
-    
+    <img width="1710" height="1107" alt="Screenshot_2025-08-26_at_13 02 43" src="https://github.com/user-attachments/assets/e4395e06-eb0d-4d10-ba77-9113a2adce52" />
 
 ### 7.5. Visualización de tráfico en el proxy de interceptación
 
 Teniendo el proxy configurado, es posible visualizar el tráfico de la siguiente manera:
 
 1. Abrir **Firefox** y acceder a cualquier página web (ej: www.ucu.edu.uy)
-    
-    ![Screenshot 2025-08-26 at 13.24.22.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-26_at_13.24.22.png)
+    <img width="1710" height="1107" alt="Screenshot_2025-08-26_at_13 24 22" src="https://github.com/user-attachments/assets/81be3c5e-2569-4faa-ad46-6af2a32062d3" />
     
 2. En Burp Suite ir a `Proxy > HTTP history` 
     
     Aparecerá todo el tráfico interceptado
-    
-    ![Screenshot 2025-08-26 at 13.24.49.png](Pr%C3%A1ctico%201%202568f0dea26480a5bba5c1fb16d032e4/Screenshot_2025-08-26_at_13.24.49.png)
+    <img width="1710" height="1107" alt="Screenshot_2025-08-26_at_13 24 49" src="https://github.com/user-attachments/assets/bcb6dea9-8acf-4f52-8a14-7e2c0f89a770" />

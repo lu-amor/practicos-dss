@@ -203,19 +203,16 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 ```
+
 Se comenzarán a realizar descargas, ingresar contraseña de la vm cuando sea solicitada. Presionar la tecla S o Y para confirmar la descarga cuando sea necesario.
-<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 49 19" src="https://github.com/user-attachments/assets/dd4f9198-1e34-4bcc-a8cf-0d8b3c8c75e2" />
 
 <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 50 26" src="https://github.com/user-attachments/assets/f0ae9aaf-bcb7-4621-b7c4-55bd1235dee4" />
 
-<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 50 38" src="https://github.com/user-attachments/assets/1a977a3b-6564-4be5-8157-7a66189ee32a" />
+2. Al finalizar el proceso anterior, ejecutar en la terminal:
 
-2. Ejecutar en la terminal
 ```
 sudo apt install docker.io docker-compose
 ```
-Cuando se solicite confirmación, teclear Yo S + enter. 
-<img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 51 16" src="https://github.com/user-attachments/assets/c98e38e7-6e9e-4b6a-baac-a0699bed2668" />
 
 <img width="1410" height="795" alt="Screenshot_2025-08-25_at_17 56 15" src="https://github.com/user-attachments/assets/7ebb453f-263c-4e2c-a83a-c27a8ccbfa04" />
 

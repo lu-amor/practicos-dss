@@ -34,7 +34,7 @@
 8. Retroceder hasta 7.a. el checkbox debería estar habilitado; seleccionarlo y luego seleccionar el botón de descarga
         <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 44 33" src="https://github.com/user-attachments/assets/cff56209-c6b6-4ecc-8849-918bca0a3784" />
     
-    1. Completar los datos personales, checkear la opción "I Agree" a los términos y condiciones y clickear el botón "Submit"
+    1. Completar los datos personales, checkear la opción **I Agree** a los términos y condiciones y clickear el botón **Submit**
         <img width="1269" height="704" alt="Screenshot_2025-08-21_at_20 45 06" src="https://github.com/user-attachments/assets/23e00d71-9d2b-41dc-bd31-5df84a14dbe9" />
         
     2. Permitir descargas de "vmware.com" y "support.broadcom.com", clickeando **Allow** o **Permitir**
